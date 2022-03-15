@@ -5,18 +5,18 @@
 - 2 Worker nodes
 
 ### Master Node Specs
-4 CPUs
+- 4 CPUs
 
-4 GB RAM
+- 4 GB RAM
 
-20 GB Storage
+- 20 GB Storage
 
 ### Worker Nodes Specs
-8 CPUs
+- 8 CPUs
 
-8 GB RAM
+- 8 GB RAM
 
-20 GB storage
+- 20 GB storage
 
 ### Master Node IPv4 config
 
