@@ -107,3 +107,11 @@ sudo apt-get install -y kubelet kubeadm kubectl`
 Install weavenet
 
 `kubectl apply -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 | tr -d '\n')"`
+
+## Add Worker Nodes to Cluster
+
+Run on master node:
+
+`kubeadm token create --print-join-command`
+
+Copy & Paste output on worker node
